@@ -1,1 +1,15 @@
-we'll type css here
+/*We'll type css here*/
+
+.navbar {
+	font-family: 'rock salt';
+	font-size: 11px;
+}
+.jumbotron {
+	padding-top: 90px;
+	min-height: 600px;
+	margin-bottom: 0;
+	background-color: #fdfdfd;
+	background-image: url('#');
+	background-size: cover;
+	background-attachment: fixed;
+}
