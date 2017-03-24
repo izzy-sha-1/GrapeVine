@@ -1,8 +1,49 @@
-<!DOCTYPE hmtl>
+DOCTYPE hmtl>
 <html>
 	<head>
-		<h1><b>East London</b></h1>
+		<title>East London</title>
+		<link href="https://fonts.googleapis.com/css?family=Cinzel|Della+Respira|Kanit|Mr+Dafoe|Pacifico|Quicksand|Rock+Salt|Rufina" rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="other.css">
 	</head>
 
 	<body>
-	<h2>Things to do in East London</h2>
+	<h2>East London/h2>
+	<div class="container">
+	<br>
+	   <b>I want to go catch a movie on the weekend or after work that is not too expensive! Any recommendations? </b>
+  <div>
+     One cinema springs to mind. <a href= https://genesiscinema.co.uk/GenesisCinema.dll/Home> Genesis cinema </a> on Whitechapel Street, a cosy little Cinema with 3 reasonably sized screens. Tickets are usally £8 - unless you fancy the luxury experience with sofas for £10! Amazingly, every Monday and Wednesday all tickets are £4.50 !
+     It also has a bar, does great pizza and hosts a variety of cool film events and festivals throughout the year.
+  </div>
+
+  <br>
+    <b> Are there any good art galleries in East London worth a visit?</b>
+   <div>   
+     In east London, the streets from something of an art gallery. Walk down bricklane and witness fabulous murals and near to the Truman brewery . You'll find this pair of abandoned cars. They've been there for years. The upper one is a 2008 piece by D*Face. The lower, pink car was decorated by Banksy a year or two before.
+    <img src=https://assets.londonist.com/uploads/2016/10/i875/img_6942.jpg> 
+    </div>
+
+  <div>
+     An Art Gallery worth visiting is <a href=http://chisenhale.org.uk > Chisenhale Gallery </a> Located off Roman road in Bethnal Green. It displays work of current artists and hosts talks and film events throughout the month.
+   </div>
+   
+   <br>
+    <b>I want to buy some flowers for my flat, any nice outdoor markets that I could go to?</b>
+    <div>
+    There is one place in London that is sure to meet your needs! One of London’s most visually appealing markets, Columbia Road overflows with bucketfuls of beautiful flowers every Sunday. There are bulbs, herbs, shrubs and bedding plants too. Alongside the Sunday market you’ll find a host of independent galleries and shops selling pottery, perfume and the like – many of them are only open at the weekends, and they often shut up shop with the market at 3pm. Turn up as early as humanly possible if you want to guarantee yourself the pick of the crop. Things start winding down at 2pm.
+      </div>
+      <img src="columbiaflowers.jpg">
+
+    <br>
+      <b> Where is good to see live jazz? </b>
+    <div>
+    At the <a href=http://www.vortexjazz.co.uk/> Vortex </a> in Dalston you will find a great selection of music played most nights of the week. As well as attracting great Jazz musicians from across the world, the Vortex is also run entirely by volunteers.
+    </div>
+
+    <div>
+    If you’re after something more off the record, head to the Haggerston pub (438 Kingsland Road) on a Sunday night where they have a very lively jazz session kicking off at 11.30pm. Expect the unexpected! 
+    </div
+
+	  </body>
+  </html>
