@@ -9,6 +9,19 @@ h1 {
 	background-color: rgba(20,20,20,.8);
 	border: rgba(34,34,34,0);
 }
+.dropdown-menu {
+	background-color: rgba(20,20,20,.8);
+	border-top-width: 1px;
+	border-top-color: black;
+	border-radius: 10px;
+	text-align: center;
+	text-shadow: 2px 2px rgba(250,250,250,.3);
+}
+.dropdown-menu li a {
+	color: white;
+	font-family: 'rock salt';
+	font-size: 12px;
+}
 
 img {
 	width: 90%;
@@ -20,4 +33,9 @@ img {
 
 .main {
 	background-color: grey;
+}
+
+.btn-success {
+	background-color: rgba(170,141,216,1);
+	border-color: rgba(170,141,216,1);
 }
