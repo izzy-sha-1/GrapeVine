@@ -1,40 +1,105 @@
-<!DOCType>
+<!--DOCType-->
 <html>
 	<head>
+	<!-- Navbar -->
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		  <div class="container">
-		      <!-- Brand and toggle get grouped for better mobile display -->
-		  <div class="navbar-header">
-		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		      <span class="sr-only">Toggle navigation</span>
-		      <span class="icon-bar"></span>
-		      <span class="icon-bar"></span>
-		      <span class="icon-bar"></span>
-		    </button>
-		    <a class="navbar-brand" href="#">GrapeVine</a>
-		  </div>
+	    <!-- Brand and toggle grouped for better mobile display -->
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span> 
+			    </button>
+			    <a class="navbar-brand" href="index.html">GrapeVine</a>
+			  </div>
 
-		  <div class="collapse navbar-collapse">
-		  <ul class="nav navbar-nav navbar-right">
-		      <li><a href="#areas">Areas</a></li>
-		      <li><a href="#about">About</a></li>
-		    </ul>
-		    </div>
+			  <div class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav navbar-right">
+			      <li class="dropdown">
+			      	<a href="#areas" class="dropdown-toggle" data-toggle="dropdown">Areas<b class="caret"></b></a>
+			      <ul class="dropdown-menu">
+			      		<li><a href="#North">North</a></li>
+			      		<li><a href="#East">East</a></li>
+			      		<li><a href="#South">South</a></li>
+			      		<li><a href="#west">West</a></li>
+			      </ul>
+			      </li>
+			      <li><a href="#about">About</a></li>
+			    </ul>
+			  </div>
 		  </div>
 		</nav>
-		<script src="/assets/jquery.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Cinzel|Della+Respira|Kanit|Mr+Dafoe|Pacifico|Quicksand|Rock+Salt|Rufina" rel='stylesheet' type='text/css'>
+	<!--Stylesheets-->
+		<link href="https://fonts.googleapis.com/css?family=Kanit|Quicksand|Rock+Salt|Rufina" rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Favicon-->
+		<link rel="icon" href="http://i.imgur.com/9Pqw8xu.png">
+	<!--Title-->
 		<title>Grapevine</title>
 	</head>
 	<body>
-
-		<h1>Choose your local area</h1>
-		    <li><a href="#">North London</a></li>
-		    <li><a href="#">East London</a><li>
-    		<li><a href="#">South London</a></li>
-    		<li><a href="#">West London</a><li>
-    	</h1>
+		<div class='jumbotron'>
+    		<div class="container container-1">
+			    <div class="row">
+			        <div class='col-sm-4'>
+			          	<img src='Images/Purple-Grapes.png' class="center-block img1" alt="Responsive image">
+			        </div>
+			        <div class='col-sm-4 menu-text'>
+			          	<h1>Choose your local area</h1>
+			        </div>
+			        <div id="menu1" class='col-sm-6'>  
+			        	<div class="center-text">
+			        		<a href="#"><img src="Images/IMG1945.JPG"></a>
+				        	<a href="#"><img src="Images/IMG7076.JPG"></a>
+			        		<a href="#"><img src="Images/IMG5650.JPG"></a>
+			        		<a href="#"><img src="Images/1234.jpeg"></a>
+			        </div>
+			    </div>
+      		</div>
+   	 	</div>
+  </div>
+    <form class="form-inline" role="form">
+        <div class="form-group">
+          <label for="email">Find out more</label>
+          <input class="form-control" placeholder="Enter your email" type="text" name="email">
+          <button class='btn btn-success' button type="submit">Send</button>
+         </div>
+   	</form>
+	 <!--Falling Grapes-->	
+<!--	
+	<div id="elementsToScroll">
+	    		<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=43 height=581 style='position:absolute; left:17%; top:23px; width:100; height:581px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=45 height=674 style='position:absolute; left:45%; top:90px; width:100; height:674px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=7 height=510 style='position:absolute; left:29%; top:96px; width:100; height:510px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=4 scrolldelay=39 height=572 style='position:absolute; left:8%; top:58px; width:100; height:572px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=1 scrolldelay=18 height=559 style='position:absolute; left:9%; top:6px; width:100; height:559px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=50 height=681 style='position:absolute; left:43%; top:188px; width:100; height:681px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=1 scrolldelay=23 height=533 style='position:absolute; left:86%; top:30px; width:100; height:533px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=18 height=546 style='position:absolute; left:12%; top:130px; width:100; height:546px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=6 scrolldelay=21 height=570 style='position:absolute; left:76%; top:178px; width:100; height:570px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=1 scrolldelay=42 height=530 style='position:absolute; left:72%; top:37px; width:100; height:530px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=35 height=582 style='position:absolute; left:44%; top:37px; width:100; height:582px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=30 height=656 style='position:absolute; left:88%; top:21px; width:100; height:656px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=1 scrolldelay=32 height=651 style='position:absolute; left:10%; top:44px; width:100; height:651px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=9 height=504 style='position:absolute; left:22%; top:9px; width:100; height:504px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=10 height=639 style='position:absolute; left:66%; top:44px; width:100; height:639px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=5 scrolldelay=8 height=648 style='position:absolute; left:21%; top:19px; width:100; height:648px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=4 scrolldelay=26 height=584 style='position:absolute; left:57%; top:110px; width:100; height:584px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=38 height=512 style='position:absolute; left:31%; top:74px; width:100; height:512px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=14 height=651 style='position:absolute; left:63%; top:80px; width:100; height:651px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=38 height=511 style='position:absolute; left:73%; top:80px; width:100; height:511px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=3 scrolldelay=25 height=582 style='position:absolute; left:90%; top:60px; width:100; height:582px;'><font>🍇</font></marquee>
+				<marquee behavior=scroll direction=down scrollamount=2 scrolldelay=11 height=509 style='position:absolute; left:81%; top:100px; width:100; height: 509px;'><font>🍇</font></marquee>
+	</div>
+	<button onclick="onOffScroll()">Grapes</button>-->
 	</body>
+<!--Scripts-->
+	<script src="/js/myjQuery.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+	<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 </html>
+
