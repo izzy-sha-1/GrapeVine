@@ -1,7 +1,13 @@
+body {
+	background-image: url('Images/skyline.jpeg');
+	background-size: cover;
+}
 
 h1 {
-	border: 2px solid black ;
+	/*border: 2px solid black;*/
 	font-family: 'rock salt';
+	text-align: center;
+	color: white;
 }
 .navbar {
 	font-family: 'rock salt';
@@ -32,10 +38,35 @@ img {
 
 
 .main {
-	background-color: grey;
+	background-color: rgba(255, 255, 255,.6);
+	background: linear-gradient(bottom, rgba(20, 20, 20,.6), rgba(255, 255, 255,.4));
+  	background: -webkit-linear-gradient(bottom, rgba(20, 20, 20,.6), rgba(255, 255, 255,.4));
+  	background: -moz-linear-gradient(bottom, rgba(255, 255, 255,.6), rgba(255, 255, 255,.4));
+	color: black;
+	font-family: 'kanit';
+	border-radius: 20px;
+}
+
+.main a {
+	color: purple;
+	font-weight: bold;
 }
 
 .btn-success {
 	background-color: rgba(170,141,216,1);
 	border-color: rgba(170,141,216,1);
+}
+.btn-success1 {
+	background-color: rgba(170,141,216,1);
+	border-color: rgba(170,141,216,1);
+	color: white;
+}
+.btn-success2 {
+	background-color: rgba(170,141,216,1);
+	border-color: rgba(170,141,216,1);
+	color: white;
+}
+
+form {
+	margin-left: 10px;
 }
