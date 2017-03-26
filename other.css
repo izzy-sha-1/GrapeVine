@@ -3,7 +3,10 @@ h1 {
 	border: 2px solid black ;
 	font-family: 'rock salt';
 }
+.navbar {
+	font-family: 'rock salt';
+	font-size: 11px;
+	background-color: rgba(20,20,20,.8);
+	border: rgba(34,34,34,0);
+}
 
-table
-	border="1mm"
-	bordercolor="black"
