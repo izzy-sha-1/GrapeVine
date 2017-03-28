@@ -1,4 +1,8 @@
-  $('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
-
+$(document).ready(function(){
+	$(function() {
+	    var elm = $('#elementsToScroll');
+	    $('.grapes').on('click', function() {
+	        elm.toggle();
+	    });
+	});
+});

@@ -133,6 +133,24 @@
    width:100%;
    background: rgb(20,20,20);
 }
+iframe {
+	border-radius: 20px;
+	opacity: .8;
+	font-family: 'kanit';
+}.freebirdFormviewerViewHeaderDescription {
+	font-family: 'kanit';
+}
+.freebirdFormviewerViewHeaderTitle {
+	font-family: 'kanit';
+}
+
+iframe:hover {
+	opacity: 1;
+}
+::-webkit-scrollbar-track {
+
+}
+
 @media (max-width:500px) {
 	.img1 {
 		width: 75%;
@@ -172,9 +190,17 @@
 	body {
 		width: 100%;
 	}
+	iframe {
+		display: none;
+	}
 }
 @media (max-width:400px) {
 	.img1 {
 		top: -25px;
+	}
+}
+@media (max-width:900px) {
+	iframe {
+		display: none;
 	}
 }
